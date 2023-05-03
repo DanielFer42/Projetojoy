@@ -1,0 +1,12 @@
+*@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border;
+    text-decoration: none;
+}
+
+body {
+    background: linear-gradient(300deg, #1A87EB 20%, rgba(100, 255, 224, 214) 110.37%);
+}
