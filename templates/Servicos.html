@@ -3,7 +3,165 @@
 <head>
     <meta charset="UTF -8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" typt="text/css" href="Servicos.css" media="">
-    <title>Serviços - Saude Sul RS</title>
-    
+    <link rel="stylesheet" typt="text/css" href="Formulario.css" media=""
+
+    <title>Cadastro de Clientes</title>
 </head>
+<body>
+    <div>
+        <h1 id="titulo">Cadastro do Paciente:</h1>
+        <p id="subtitulo">Complete as suas informações:</p>
+        <p id="subtitulo">A primeira consulta é gratuita</p>
+        <br>        
+    </div>
+<form>
+    <fieldset class="grupo">
+        <div>
+            <label for="nome"><strong>Nome</strong></label>
+            <imput: type="text" name="nome" id="nome" required>            
+        </div>
+        
+        <div class="campo">
+            <label for="sobrenome"><strong>Sobrenome</strong></label>
+            <imput type="text" name="sobrenome" id="sobrenome" required>            
+        </div>
+    </fieldset>
+
+    <div class="campo">
+        <label for="email"><strong>Email</strong></label>
+        <imput type="Email" name="email" id="email" required>
+    </div>
+
+    <div class="campo">
+        <label>Qual serviço deseja?</label>
+        <select id="qual serviço deseja?">
+            <option	selected disabled value="">Escolha uma opção</option>
+            <option>Cuidados de enfermagem</option>
+            <option>Internação domiciliar</option>
+            <option>Cuidados Paliativos</option>
+        </select>
+    </div>
+
+    <div class="campo">
+        <label>Você é o paciente?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>Qual o sexo do paciente?</label>
+        <label>
+            <input type="radio" name="devweb" value="masculino">Masculino
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="feminino">Feminino
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente é cadeirante?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente se alimenta sozinho?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente tem lesão na pele?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente faz uso fralda?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente é acamado?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente está lucidez?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente está orientado?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente está contactua?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>        
+    </div>
+
+    <div class="campo">
+        <label>O paciente faz uso de medicação?</label>
+        <label>
+            <input type="radio" name="devweb" value="sim">Sim
+        </label>
+        <label>
+            <input type="radio" name="devweb" value="nao">Não
+        </label>
+        <textarea rows="10" style="width: 19em" id="qualmedicação?" name="qualmedicação?"></textarea>                
+    </div>
+
+    <div class="campo">
+        <br>
+        <label>Conte nos mais sobre o paciente informando Idade, sexo e a doença:</label>
+        <textarea rows="10" style="width: 26em" id="informacaopaciente" name="informacaopaciente"></textarea>
+    </div>
+        
+    <button class="botão" type="submit">Concluido</button>
+
+</form>
+
+</body>
+</html>
