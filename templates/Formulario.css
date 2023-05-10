@@ -11,8 +11,8 @@
 
 #subtitulo {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(39, 43, 33);
-    margin-left: 10%;
+    color: rgb(240, 241, 237);
+    margin-left: 7%;
 }
 
 fieldset {
@@ -20,17 +20,17 @@ fieldset {
 }
 
 body{
-    background-color: #F0F8FF;
+    background-color: #020c14;
     font-family: sans-serif;
     font-size: 1em;
-    color:rgb(113, 20, 220);
-    margin-left: 36%;
+    color:rgb(249, 248, 250);
+    margin-left: 26%;
     margin-top: 2%;
     justify-content: center;
 }
 
 input, select, textarea, button{
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .campo {

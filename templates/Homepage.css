@@ -8,5 +8,14 @@
 }
 
 body {
-    background: linear-gradient(180deg, #1A87EB 13.66%, rgba(0, 255, 224, 0) 81.37%);
+    background-color: rgb(231, 183, 187);
+}
+
+footer .rodape {
+    width: 40px;
+    height: 40px;
+}
+footer .logo-rodape {
+    width: 40px;
+    height: 40px;
 }
