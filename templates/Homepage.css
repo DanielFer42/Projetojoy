@@ -8,14 +8,70 @@
 }
 
 body {
-    background-color: rgb(231, 183, 187);
+    background-color: #1d9c61;
 }
 
+footer .logoinsta {
+    width: 50PX;
+    height: 50PX;
+    text-align: center;
+}
 footer .rodape {
     width: 40px;
     height: 40px;
+    text-align: center;
 }
-footer .logo-rodape {
-    width: 40px;
-    height: 40px;
+footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
 }
+footer a {
+    margin-top: 2px;
+    text-align: center;
+}
+footer p {
+    margin-top: 2px;
+    text-align: center;
+}
+.center {
+    text-align: center;
+}
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50% ;
+    border: brown;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
+a {
+    margin-top: 2px;
+    text-align: center;
+    display: flex;
+}
+li {
+    margin-bottom: center;
+    display: flex;
+}
+.primeiraft {
+    overflow: hidden; /* limpa o alinhamento flutuante */
+  }
+  
+  img .primeiraft{
+    float: left; /* define a imagem para flutuar à esquerda */
+    margin-right: 20px; /* define uma margem à direita para separar a imagem do texto */
+  }
+  .segundaft {
+    overflow: hidden; /* limpa o alinhamento flutuante */
+  }
+  
+  img.segundaft{
+    float: right; /* define a imagem para flutuar à esquerda */
+    margin-right: 20px; /* define uma margem à direita para separar a imagem do texto */
+  }
+  
