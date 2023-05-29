@@ -1,14 +1,14 @@
 
 
 * {
-    margin: 0;
-    padding: 0;
+    margin: 20;
+    padding: 20;
     box-sizing: border-box;
     text-decoration: none;
 }
 
 body {
-    background-color: #01110a;
+    background-color: #8ec2ab;
 }
 
 footer .logoinsta {
@@ -50,12 +50,13 @@ h2 {
     text-align: center;
 }
 a {
-    margin-top: 2px;
+    
     text-align: center;
     display: flex;
 }
-li {
+.botao {
     margin-bottom: center;
+    margin-top: 2px;
     display: flex;
 }
 .primeiraft {
